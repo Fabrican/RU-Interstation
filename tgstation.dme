@@ -14,7 +14,7 @@
 
 // BEGIN_INCLUDE
 #include "_maps\__MAP_DEFINES.dm"
-#include "_maps\tgstation2.dm"
+#include "_maps\ministation.dm"
 #include "_maps\map_files\TgStation\tgstation.2.1.3.dmm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
@@ -881,6 +881,7 @@
 #include "code\game\turfs\simulated\walls.dm"
 #include "code\game\turfs\simulated\floor\fancy_floor.dm"
 #include "code\game\turfs\simulated\floor\light_floor.dm"
+#include "code\game\turfs\simulated\floor\lw_floor.dm"
 #include "code\game\turfs\simulated\floor\mineral_floor.dm"
 #include "code\game\turfs\simulated\floor\misc_floor.dm"
 #include "code\game\turfs\simulated\floor\plasteel_floor.dm"
@@ -890,6 +891,7 @@
 #include "code\game\turfs\simulated\floor\plating\asteroid.dm"
 #include "code\game\turfs\simulated\floor\plating\lava.dm"
 #include "code\game\turfs\simulated\floor\plating\misc_plating.dm"
+#include "code\game\turfs\simulated\wall\lw_walls.dm"
 #include "code\game\turfs\simulated\wall\mineral_walls.dm"
 #include "code\game\turfs\simulated\wall\misc_walls.dm"
 #include "code\game\turfs\simulated\wall\reinf_walls.dm"
